@@ -1,0 +1,18 @@
+Guide on Downloading CellPyAbility for MacOS
+1. Download Homebrew 
+2. Download Python 3.12.9 from Python Downloader which has Tkinter module already
+3. Open Terminal
+4. Direct path: cd Documents 
+5. Make Python environment via /usr/local/bin/python3.12 -m venv ~/Documents/cellpy_env312
+6. Activate environment: source ~/Documents/cellpy_env312/bin/activate
+7. Upgrade pip: pip install --upgrade pip setuptools wheel
+8. pip install matplotlib, numpy, pandas, plotly
+9. Test tkinter (GUI pops up): python -c "import tkinter; tkinter._test()"
+10. Run script: python ~/Documents/CellPyAbility/CellPyAbility_py/CellPyAbility_GDA.py
+
+Note: If a tasks.json was created then just open it up in VSC then Shift+Command+B then select script to run
+
+Without VSC: bc json file doesn't work 
+1. Open Terminal
+2. Activate environment: source ~/Documents/cellpy_env312/bin/activate
+3. Run Script: python ~/Documents/CellPyAbility/CellPyAbility_py/CellPyAbility_Synergy.py

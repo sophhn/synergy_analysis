@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run CellPyAbility Script",
+      "type": "shell",
+      "command": "/Users/sophienguyen/Documents/cellpy_env312/bin/python",
+      "args": ["${workspaceFolder}/${input:scriptName}"],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always"
+      },
+      "problemMatcher": [],
+      "detail": "Runs the selected CellPyAbility script"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "scriptName",
+      "type": "pickString",
+      "description": "Choose a CellPyAbility script to run:",
+      "options": [
+        "CellPyAbility_GDA.py",
+        "CellPyAbility_synergy.py"
+      ]
+    }
+  ]
+}
